@@ -14,7 +14,7 @@ chmod +x ~/Downloads/filecloudsync-install.sh
 ~/Downloads/filecloudsync-install/filecloudsync-install.sh
 ```
 
-What this does...
+**What this does...**
 
 1. Clones the github repo to `~/Downloads/filecloundsync-install/`.
    - Contains my installer script and a .png file to be used for the icon.
