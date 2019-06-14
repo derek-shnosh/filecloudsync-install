@@ -29,11 +29,12 @@ echo -e "Copying icon to '$HOME/Apps/filecloudsync/'"
 cp ./filecloudsyncicon.png $HOME/Apps/filecloudsync/
 
 # Make filecloudsync and filecloudsyncstart.sh executable
-echo -e "Making files executable: ($HOME/App/filecloudsync/) filecloudsync, filecloudsyncstart.sh"
+echo -e "Making files executable: ($HOME/Apps/filecloudsync/) filecloudsync, filecloudsyncstart.sh"
 chmod +x $HOME/Apps/filecloudsync/filecloudsyncstart.sh && chmod +x $HOME/Apps/filecloudsync/filecloudsync
 
 # Create $HOME/.local/share/applications/filecloudsync.desktop file (app menu launcher)
 echo -e "Creating desktop entry file (app menu) '$HOME/.local/share/applications/filecloudsync.desktop'"
+mkdir -p $HOME/.local/share/applications
 cat > $HOME/.local/share/applications/filecloudsync.desktop <<EOF
 [Desktop Entry]
 Type=Application
