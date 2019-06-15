@@ -6,12 +6,14 @@ As user Ilsa Loving [calls out][fc-comm-link] on their community forums, the pro
 
 I made a *crude* script to install the current sync client (18.2.0.1012) on my current preferred flavor, Kubuntu 18.10; it should work on any recent [(.?[Uu]buntu)][regex-nonsense] release.
 
-Run the following from your terminal (does not require sudo access)...
+## Installation
+
+Run the following from your terminal...
 
 ```
 git clone https://github.com/derek-shnosh/filecloudsync-install.git ~/Downloads/filecloudsync-install
 chmod +x ~/Downloads/filecloudsync-install.sh
-~/Downloads/filecloudsync-install/filecloudsync-install.sh
+~/Downloads/filecloudsync-install/filecloudsync-install.sh install
 ```
 
 **What this does...**
@@ -21,14 +23,22 @@ chmod +x ~/Downloads/filecloudsync-install.sh
 2. Makes the installation script executable.
 3. Runs the installation script.
    - Downloads the latest sync client from FileCloud servers.
-   - Downloads libpng12 from Ubuntu.
+   - Downloads `libpng12` from Ubuntu.
    - Installs prerequisites (`libpng12` and `libdbusmenu-gtk-dev`).
-   - Unzips the sync client to `~/App/filecloudsync`.
-   - Copies the .png file to `~/App/filecloudsync`.
+   - Unzips the sync client to `~/apps/filecloudsync`.
+   - Copies the .png file to `~/apps/filecloudsync`.
    - Makes required files executable (`filecloudsync`, `filecloudsyncstart`).
    - Creates a `filecloudsync.desktop` file in `~/.local/share/applications/`.
+   - Registers `~/apps/filecloudsync` to shared libraries for dependencies.
    - The sync client can now be launched from an app menu.
 
+## Uninstall
+
+Run the following command to uninstall.
+
+```
+~/Downloads/filecloudsync-install/filecloudsync-install.sh uninstall
+```
 
 
 
