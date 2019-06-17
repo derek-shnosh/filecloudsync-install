@@ -12,7 +12,7 @@ Run the following from your terminal...
 
 ```
 git clone https://github.com/derek-shnosh/filecloudsync-install.git ~/Downloads/filecloudsync-install
-chmod +x ~/Downloads/filecloudsync-install.sh
+chmod +x ~/Downloads/filecloudsync-install/filecloudsync-install.sh
 ~/Downloads/filecloudsync-install/filecloudsync-install.sh install
 ```
 
