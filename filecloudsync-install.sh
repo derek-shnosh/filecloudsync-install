@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author: DS, Synergy Information Solutions, Inc.
+# Author: DS, shnosh.io
 
 # Variables
 libpng12="libpng12-0_1.2.54-1ubuntu1.1_amd64.deb"
