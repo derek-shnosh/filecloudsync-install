@@ -47,6 +47,6 @@ Run the following command to uninstall.
 [codelathe-github]: https://github.com/codelathe
 [filecloud-dlpage]: https://www.getfilecloud.com/additional-downloads/
 [fc-install-linux]: https://www.getfilecloud.com/supportdocs/display/cloud/Install+Sync+on+Linux
-[fc-comm-link]: https://community.getfilecloud.com/topic/linux-sync-client-hopelessly-inadequate
+[fc-comm-link]: https://ideas.filecloud.com/topic/linux-sync-client-hopelessly-inadequate
 [blog-link]: https://shnosh.io/linux-filecloudsync-install
 [regex-nonsense]: https://regex101.com/r/o4CJvI/1
